@@ -54,7 +54,7 @@ const LogIn = () => {
         alert(res.data.Error || "Login Failed");
       }
     } catch (err) {
-      alert("An error occurred. Please try again later.");
+      alert("Enter valid email or password");
       console.log(err);
     }
   };
